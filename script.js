@@ -102,3 +102,25 @@
 // let ul = document.querySelector("ul")
 // let li = document.querySelector("li")
 // ul.removeChild(li)
+
+//add a highlight class to every even item in a list
+// lis = document.querySelectorAll("li");
+// lis.forEach((li, idx) => {
+//   if ((idx + 1) % 2 == 0) {
+//     li.classList.add("highlight");
+//   }
+// });
+
+// Or we can do
+// Add a highlight class to every even item in a list.
+// let lis = document.querySelectorAll("ul li:nth-child(2n)");
+
+// lis.forEach(function (li) {
+//   li.classList.add("highlight");
+// });
+
+//set the font size of all <p> elements to 18px
+let ps = document.querySelectorAll("p");
+ps.forEach((p) => {
+  p.style.fontSize = "18px";
+});
