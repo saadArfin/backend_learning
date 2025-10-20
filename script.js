@@ -120,7 +120,9 @@
 // });
 
 //set the font size of all <p> elements to 18px
-let ps = document.querySelectorAll("p");
-ps.forEach((p) => {
-  p.style.fontSize = "18px";
-});
+// let ps = document.querySelectorAll("p");
+// ps.forEach((p) => {
+//   p.style.fontSize = "18px";
+// });
+
+
