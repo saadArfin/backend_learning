@@ -23,8 +23,9 @@ childDiv.addEventListener("click", () => {
 });
 
 fileInp.addEventListener("change", (evt) => {
+  console.log(evt);
   file = evt.target.files[0];
   if (file) {
     childDiv.textContent = file.name;
   }
-});
+}); 
